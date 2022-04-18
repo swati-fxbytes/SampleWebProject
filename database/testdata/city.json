@@ -1,0 +1,34 @@
+[
+	{
+        "state_id": "17",
+        "name": "Indore"
+	},
+	{
+        "state_id": "17",
+        "name": "Bhopal"
+	},
+	{
+        "state_id": "17",
+        "name": "Sehore"
+	},
+	{
+        "state_id": "16",
+        "name": "Mumbai"
+	},
+	{
+        "state_id": "16",
+        "name": "Pune"
+	},
+	{
+        "state_id": "16",
+        "name": "Nashik"
+	},
+	{
+        "state_id": "15",
+        "name": "Surat"
+	},
+	{
+        "state_id": "15",
+        "name": "Ahmedabad"
+	}
+]

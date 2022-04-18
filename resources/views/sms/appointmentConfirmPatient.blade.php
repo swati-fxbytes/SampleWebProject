@@ -1,0 +1,1 @@
+ Hi {{ $username }}, Your appointment is scheduled on {{ $date }} on time {{ $time }}.

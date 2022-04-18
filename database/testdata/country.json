@@ -1,0 +1,34 @@
+[
+	{
+		"country_name": "Afghanistan",
+        "country_code": "93"
+	},
+	{
+		"country_name": "Aland Islands",
+        "country_code": "358"
+	},
+	{
+		"country_name": "Albania",
+        "country_code": "355"
+	},
+	{
+		"country_name": "India",
+        "country_code": "91"
+	},
+	{
+		"country_name": "United States",
+        "country_code": "1"
+	},
+	{
+		"country_name": "United Kingdom",
+        "country_code": "44"
+	},
+	{
+		"country_name": "Sri Lanka",
+        "country_code": "94"
+	},
+	{
+		"country_name": "Nepal",
+        "country_code": "977"
+	}
+]

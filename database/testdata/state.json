@@ -1,0 +1,74 @@
+[
+	{
+        "country_id": "93",
+        "name": "Ghazni"
+	},
+	{
+        "country_id": "93",
+        "name": "Badghis"
+	},
+	{
+        "country_id": "93",
+        "name": "Bamyan"
+	},
+	{
+        "country_id": "358",
+		"name": "Helmand"
+	},
+	{
+        "country_id": "358",
+		"name": "Baghlan"
+	},
+	{
+        "country_id": "358",
+		"name": "Kunar"
+	},
+	{
+        "country_id": "355",
+		"name": "Aileu municipality"
+	},
+	{
+        "country_id": "355",
+		"name": "Baucau Municipality"
+	},
+	{
+        "country_id": "355",
+		"name": "Cova Lima Municipality"
+	},
+	{
+        "country_id": "91",
+		"name": "Ladakh"
+	},
+	{
+        "country_id": "91",
+		"name": "West Bengal"
+	},
+	{
+        "country_id": "91",
+		"name": "Gujrat"
+	},
+	{
+        "country_id": "91",
+		"name": "Maharastra"
+	},
+	{
+        "country_id": "91",
+		"name": "Madhya Pradesh"
+	},
+	{
+        "country_id": "1",
+		"name": "Upper South Province"
+	},
+	{
+        "country_id": "1",
+		"name": "Umm Salal Municipality"
+	},
+	{
+        "country_id": "1",
+		"name": "Ohio"
+	},
+	{
+        "country_id": "977",
+		"name": "New Providence"
+	}
+]

@@ -1,0 +1,130 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "RxHealth API Management",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/login": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "LMS login process",
+                "operationId": "fd6bf4b9e70d6ce09a9702f1d989b9c0",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/LoginRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User login successfully"
+                    },
+                    "400": {
+                        "description": "Validation error"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/api/register": {
+            "post": {
+                "tags": [
+                    "Auth"
+                ],
+                "summary": "LMS registration process",
+                "operationId": "610de1f5a289ff1f7bef5625f2690811",
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/RegisterRequest"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User registration completed successfully"
+                    },
+                    "400": {
+                        "description": "Validation error"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "LoginRequest": {
+                "title": "User login request body",
+                "description": "User login all request variable",
+                "properties": {
+                    "email": {
+                        "title": "email",
+                        "description": "email of user",
+                        "type": "string"
+                    },
+                    "password": {
+                        "title": "password",
+                        "description": "password of user",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            },
+            "RegisterRequest": {
+                "title": "User Registration request body",
+                "description": "User registration all request variable",
+                "properties": {
+                    "firstname": {
+                        "title": "firstname",
+                        "description": "firstname of user",
+                        "type": "string"
+                    },
+                    "lastname": {
+                        "title": "lastname",
+                        "description": "lastname of user",
+                        "type": "string"
+                    },
+                    "user_type": {
+                        "title": "user_type",
+                        "description": "Role of the user",
+                        "type": "integer"
+                    },
+                    "email": {
+                        "title": "email",
+                        "description": "email of user",
+                        "type": "string"
+                    },
+                    "password": {
+                        "title": "password",
+                        "description": "password of user",
+                        "type": "string"
+                    },
+                    "confirm_password": {
+                        "title": "confirm_password",
+                        "description": "Confirm password",
+                        "type": "string"
+                    }
+                },
+                "type": "object"
+            }
+        }
+    },
+    "security": [
+        []
+    ]
+}
